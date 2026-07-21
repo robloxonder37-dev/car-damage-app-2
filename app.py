@@ -20,7 +20,7 @@ with col2:
 
 col3, col4 = st.columns(2)
 with col3:
-    yakit = st.selectbox("Yakıt Türü", ["Benzin", Dizel", "Benzin & LPG", "Hibrit", "Elektrik"])
+    yakit = st.selectbox("Yakıt Türü", ["Benzin", "Dizel", "Benzin & LPG", "Hibrit", "Elektrik"])
 with col4:
     vites = st.selectbox("Vites Türü", ["Manuel", "Yarı Otomatik", "Otomatik"])
 
